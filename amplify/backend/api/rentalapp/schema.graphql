@@ -1,0 +1,8 @@
+type RentalCars @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String
+  Price: Float
+  Description: String
+  ImageUrl: AWSURL
+}
+ 
